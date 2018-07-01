@@ -1,5 +1,5 @@
 {
-    "name": "persian-validator/nationalCode",
+    "name": "persian-validator/national-code",
     "description": "Validates national codes in Iran",
     "keywords": ["laravel", "nationalCode", "validator"],
     "type": "library",
