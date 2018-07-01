@@ -9,34 +9,23 @@ $ composer
 ## Usage
 Instantiate the class 
 ```php
-$mobile = Mobile::make('0912000000');
+$nationalCode = NationalCode::make('123456789');
 ```
 
 Returns Boolean
 ```php
-$mobile->isValid();
+$nationalCode->isValid();
 ```
  
 
 Returns Boolean
 ```php
-$mobile->notValid(); 
+$nationalCode->notValid(); 
 ```
-Retruns Boolean
+
+If national code is valid returns nothing but if it's not valid Exception is thrown!
 ```php
-$moile->isIrancell(); 
-```
-Reruns the operator for the number
-```php
-$mobile->operator(); 
-```
-If it's Hamrah aval, it returns the province for it. like Tehran, Isfahan ...
-```php
-$mobile->province(); 
-```
-If mobile is valid returns nothing but if it's not valid Exception is thrown!
-```php
-$mobile->validate();
+$nationalCode->validate();
 ```
 ***
 
