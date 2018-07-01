@@ -1,0 +1,26 @@
+{
+    "name": "persian-validator/nationalCode",
+    "description": "Validates national codes in Iran",
+    "keywords": ["laravel", "nationalCode", "validator"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Khalili",
+            "email": "ali.kh333@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PersianValidator\\NationalCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PersianValidator\\NationalCode\\NationalCodeValidatorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
