@@ -3,7 +3,7 @@ A simple class to validate national codes in Iran.
 
 ## Install
 Via Composer
-```php
+```shell
 $ composer require persian-validator/national-code
 ```
 ## Usage
